@@ -1,0 +1,133 @@
+<!-- 82-84-My-Image-Gallery.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>82-84-My-Image-Gallery</title>
+
+	<!-- BootstrapCDN - Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	
+	<!-- Local copy of Bootstrap -->
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap3-5-5.css"> -->
+
+	<style type="text/css" media="screen">
+		/*The following style overides the default body margin of 0 0 0 0*/
+		body {
+			margin:20px;
+		}
+
+		/*The following style sets the font for codes.*/
+		.code-font {
+		font-family: monospace;
+		font-size: 1.5rem;
+		}
+
+		/*The following makes the Grid System visible*/
+		/*Apply this class to each of the cols in a row*/
+		.pink {
+			background: pink;
+			border: 1px solid purple;
+		}
+
+		.orange {
+			background: orange;
+			border: 1px dashed red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<!-- Content gallery.md -->
+	<!-- #IMAGE GALLERY
+
+	===========
+	Image Links
+	===========
+
+	- http://i.imgur.com/qK42fUu.jpg
+	- https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+	- https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+	- https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9
+	- https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+	- https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+	- https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+	- https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+	- https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450
+
+
+	===========
+	The Colors
+	===========
+	DARK BLUE: #2c3e50
+	LIGHT GRAY: #ecf0f1	 -->
+
+	<h1>82-84 My Image Gallery</h1>
+
+	<!-- The Navbar -->
+	<!-- Will be using the Navbar from 77-myDefaultBootstrapNavBar.html -->
+	<!-- REMEMBER: 77-myDefaultBootstrapNavBar.html works because it's using a local copy of bootstrap. -->
+
+		<nav class="navbar navbar-default">
+			<!-- NOTE: The lecturer used <div>'s initially; but later replaced the \
+				<div>'s with <ul>'s just like the autogen code use <ul>. -->
+			
+			<div  class="navbar-header">
+
+				<!-- Place the code for the "Hamburger" buttons here: -->
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar-items-to-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			    </button>				
+			    <!-- End of "Hamburger" button code. -->
+
+				<a href="#" class="navbar-brand" title="">MyKoffee</a>
+			</div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="my-navbar-items-to-collapse">
+
+				<!-- The following uls will be hidden. -->
+				<ul class="nav navbar-nav navbar-nav">
+					<li><a href="#" title="">About</a></li>
+					<li><a href="#" title="">Contact</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" title="">Signup</a></li>
+					<li><a href="#" title="">Login</a></li>
+				</ul>
+			</div>
+			<!-- End of collection of collapsible nav links. -->
+
+		</nav>
+
+
+
+
+	<!-- The JUMBOTRON in a container -->
+	<div class=container>
+		<div class="jumbotron">
+			<h1>My Image Gallery</h1>
+			<p>All these images are not mine. They're provided in the project.</p>
+		</div>			
+	</div>	
+
+
+
+<!-- IN THIS PARTICULAR PAGE, USED TO MAKE THE MENU/TOOLBAR RESPONSIVE -->
+
+<!-- https://code.jquery.com/jquery-3.4.1.js -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" type="text/javascript" charset="utf-8" async defer></script>
+
+<!-- BootstrapCDN -Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Local Bootstrap bootstrap337/bootstrap.js -->
+<!-- <script src="bootstrap337/bootstrap.js" type="text/javascript" charset="utf-8" async defer></script> -->
+
+</body>
+</html>
