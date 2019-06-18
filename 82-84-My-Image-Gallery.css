@@ -1,0 +1,63 @@
+/*82-84-My-Image-Gallery.css*/
+
+
+/*The following style overides the default body margin of 0 0 0 0*/
+body {
+	margin:20px;
+	padding-top: 70px; 
+		/*70px is the height of the navbar that we want to compensate for.*/
+}
+
+/*The following style sets the font for codes.*/
+.code-font {
+font-family: monospace;
+font-size: 1.5rem;
+}
+
+/*The following makes the Grid System visible*/
+/*Apply this class to each of the cols in a row*/
+.pink {
+	background: pink;
+	border: 1px solid purple;
+}
+
+.orange {
+	background: orange;
+	border: 1px dashed red;
+}
+
+body {
+	padding-top: 70px; /*70px is the height of the navbar that we want to compensate for.*/
+}
+
+/*The following set the DARK BLUE (#2c3e50) text color of the jumbotron required for the project.*/
+.jumbotron {
+	color: #2c3e50;
+	background:#ecf0f1;
+}
+
+/*The following set the DARK BLUE (#2c3e50) background color of the navbar.*/
+/*Unfortunately, this setting also afftexts the text so we will have to do a couple of work-arounds. */
+
+/*navbar background color*/
+.navbar-inverse {
+	color: #2c3e50;
+}
+/*For some reason, this do not change the color of the navbar. Not sure why.*/
+
+
+/*navbar button texts set back to white*/
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+/*navbar brand button text set back to white*/
+.navbar-inverse .navbar-brand {
+	color:white;
+}
+
+/*Jumbotron background color is required to be LIGHT GRAY: (#ecf0f1)*/
+/*Add background:#ecf0f1; to the jumbotron class style above.*/
+
+
+
